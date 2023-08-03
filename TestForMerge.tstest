@@ -16,7 +16,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "ead77e12-6a06-420d-afe0-2436c6e2677e",
+            "Runtime ID": "ba4ef9b7-df43-4745-9d7b-587f1bab0a83",
             "Description": "Navigate to : 'https://v3-test-9.screenpal.com'",
             "CustomDescription": null,
             "Step": {
@@ -52,7 +52,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "TestForMergeofnad1gj.3ct",
+            "StepImageKey": "TestForMerge4qb3mlmg.4in",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -61,8 +61,8 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "8ab70f03-e952-497d-bc67-072e50c51f33",
-            "Description": "Click 'LogInLink'",
+            "Runtime ID": "b65b3f4c-2c89-4c3b-b660-3dddc1390b28",
+            "Description": "Click 'PricingLink'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
@@ -112,10 +112,10 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                         "__value": {
-                          "uniqueKey": "cgUE2s2BdNHnJQMFBpLLVgE6RBI=",
+                          "uniqueKey": "PN+DsuUn2ZZhy8TW/+unju4ccYY=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "LogInLink",
+                          "Name": "PricingLink",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -126,13 +126,13 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "id=pagewrap"
+                                        "Clause": "id=example-navbar-collapse"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "tagIndex=a:4"
+                                        "Clause": "tagIndex=a:21"
                                       }
                                     }
                                   ],
@@ -144,14 +144,14 @@
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[1]/a[1]",
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[8]/a[1]",
                           "ImageSearchClauses": [
                             {
                               "__type": "ArtOfTest.Common.ImageSearchClause",
                               "__value": {
                                 "Resolution": "1920, 1200",
                                 "BroweserType": 7,
-                                "Image": "DBD9F5F06B34A4EA34B710FC111503CFEDF471DBE904611EC72F0F821EC41BFD",
+                                "Image": "74B81AC1BEFC3379B30169C933A502CA5900D359E6B17FB6235003CAEC0722CD",
                                 "Index": 0,
                                 "MatchThreshold": 90,
                                 "OsVersion": "10.0.22621.0",
@@ -182,7 +182,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "TestForMerge44cn4b5r.2fl",
+            "StepImageKey": "TestForMergebykriwgk.wdl",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -191,147 +191,8 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "a5f18954-8226-4fbd-b1bc-367220a5595c",
-            "Description": "Enter text 'testing@screencast-o-matic.com' in 'EmailEmail'",
-            "CustomDescription": null,
-            "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SetTextActionDescriptor",
-              "__value": {
-                "RawText": "testing@screencast-o-matic.com",
-                "SimulateRealTyping": true,
-                "TypingSpeed": 50,
-                "KeyHoldTime": 100,
-                "IsPassword": false,
-                "TypingInfo": {
-                  "ElementText": "testing@screencast-o-matic.com",
-                  "TypedText": "testing@screencsat-o-matic..Backspacecom",
-                  "CaretPosition": 0,
-                  "IsTextArea": false,
-                  "IsBackSpace": false
-                },
-                "Encrypt": false,
-                "SupportUnicode": true,
-                "ScrollToVisibleType": 2,
-                "UsejQuery": false,
-                "ClosesBrowser": false,
-                "AjaxTimeout": 0,
-                "Pause": 0,
-                "WaitOnElementsTimeout": 30000,
-                "SearchByImageFirst": 0,
-                "UseStepWaitOnElementsTimout": false,
-                "WaitOnElements": true,
-                "RunsAgainstVersion": "",
-                "Constraints": {
-                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                  "__value": {
-                    "ConstraintValues": {}
-                  }
-                },
-                "Elements": {
-                  "textTarget": {
-                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
-                    "__value": {
-                      "Name": "textTarget",
-                      "Region": null,
-                      "Page": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
-                        "__value": {
-                          "Path": "https://v3-test-9.screenpal.com/login",
-                          "Query": "",
-                          "BaseUrl": "",
-                          "EquivalentUrls": [],
-                          "Fragment": "",
-                          "Title": "ScreenPal -     Welcome Back!\n  - hotlist-17189-remove_default_wordpress_schema",
-                          "CompareMode": 1,
-                          "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "ScreenPalWelcomeBack"
-                        }
-                      },
-                      "Frame": null,
-                      "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
-                        "__value": {
-                          "uniqueKey": "U7TeT/g5XYWvLaCFpKNUeP1xliY=",
-                          "NodeKind": 4,
-                          "TechnologyType": 1,
-                          "Name": "EmailEmail",
-                          "FindExpressions": [
-                            {
-                              "Key": 1,
-                              "Value": {
-                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
-                                "__value": {
-                                  "Clauses": [
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "id=email"
-                                      }
-                                    },
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "tagname=input"
-                                      }
-                                    }
-                                  ],
-                                  "Constraints": [],
-                                  "ChainStops": []
-                                }
-                              }
-                            }
-                          ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[2]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/input[1]",
-                          "ImageSearchClauses": [
-                            {
-                              "__type": "ArtOfTest.Common.ImageSearchClause",
-                              "__value": {
-                                "Resolution": "1920, 1200",
-                                "BroweserType": 7,
-                                "Image": "60223C86EF3EC1FBC3D6096E4B7543AFAB311EA86418267BA7CF3F894949A2B6",
-                                "Index": 0,
-                                "MatchThreshold": 90,
-                                "OsVersion": "10.0.22621.0",
-                                "ScreenScale": 1.5,
-                                "ScrollOnImageSearch": null
-                              }
-                            }
-                          ],
-                          "DataBindingExpressions": {}
-                        }
-                      },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputEmail",
-                      "IsIndependent": false,
-                      "DomStateKey": "",
-                      "TechnologyType": 1,
-                      "Version": 200
-                    }
-                  }
-                },
-                "StepType": 4,
-                "LogMessageOnFailure": "",
-                "EditorType": "",
-                "DataBindingExpressions": {},
-                "_canEncrypt": false,
-                "_cipher": null
-              }
-            },
-            "Enabled": true,
-            "Order": 3,
-            "Id": "",
-            "StepState": 0,
-            "ContinueOnFailure": false,
-            "StepImageKey": "TestForMergejtuzmejg.c1o",
-            "QcId": 0,
-            "QcVersionStamp": 0,
-            "Version": 200
-          }
-        },
-        {
-          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-          "__value": {
-            "Runtime ID": "6b43200b-bbb2-47bf-a722-132d70fcd1e0",
-            "Description": "Click 'ButtonTag'",
+            "Runtime ID": "59726a28-6079-4ced-bd95-451396f98244",
+            "Description": "Click 'SubscribePlanPr1Link'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
@@ -366,25 +227,25 @@
                       "Page": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
-                          "Path": "https://v3-test-9.screenpal.com/login",
+                          "Path": "https://v3-test-9.screenpal.com/plans",
                           "Query": "",
                           "BaseUrl": "",
                           "EquivalentUrls": [],
                           "Fragment": "",
-                          "Title": "ScreenPal -     Welcome Back!\n  - hotlist-17189-remove_default_wordpress_schema",
+                          "Title": "Plans - Screen Recorder & Video Editor - ScreenPal (Formerly Screencast-O-Matic)",
                           "CompareMode": 1,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "ScreenPalWelcomeBack"
+                          "FriendlyName": "PlansScreenRecorder"
                         }
                       },
                       "Frame": null,
                       "FindExpression": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                         "__value": {
-                          "uniqueKey": "yXmT4gbTrXUxcZ264E8c+lSpaTg=",
+                          "uniqueKey": "HLLNw++/vGlhxqj42+cwPR1DJR0=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "ButtonTag0",
+                          "Name": "SubscribePlanPr1Link",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -395,13 +256,13 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "id=login"
+                                        "Clause": "id=themify_builder_content-55731"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "tagIndex=button:0"
+                                        "Clause": "tagIndex=a:2"
                                       }
                                     }
                                   ],
@@ -413,14 +274,14 @@
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[2]/div[2]/div[1]/div[1]/div[1]/form[1]/button[1]",
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[4]/div[1]/main[1]/div[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[6]/div[1]/a[1]",
                           "ImageSearchClauses": [
                             {
                               "__type": "ArtOfTest.Common.ImageSearchClause",
                               "__value": {
                                 "Resolution": "1920, 1200",
                                 "BroweserType": 7,
-                                "Image": "650C68C31DABD4464DAC05EF5A4372E81C5FECC2DE914F37D09C37DBCAD4202C",
+                                "Image": "43C1CD87B31D93FA5AA68F9CE7C6CF7C5530F2F9B57170F1EC6E06B66A908850",
                                 "Index": 0,
                                 "MatchThreshold": 90,
                                 "OsVersion": "10.0.22621.0",
@@ -432,7 +293,7 @@
                           "DataBindingExpressions": {}
                         }
                       },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlButton",
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlAnchor",
                       "IsIndependent": false,
                       "DomStateKey": "",
                       "TechnologyType": 1,
@@ -447,11 +308,11 @@
               }
             },
             "Enabled": true,
-            "Order": 4,
+            "Order": 3,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "TestForMergea0a4w41v.fva",
+            "StepImageKey": "TestForMergeyhgtqe0i.vw1",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
